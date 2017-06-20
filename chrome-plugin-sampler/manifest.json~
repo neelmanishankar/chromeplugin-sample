@@ -1,0 +1,11 @@
+{
+  "name": "Chrome extension ThoughtLog",
+  "description": "Though Log",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["tabs", "http://*/*", "background"],
+  "browser_action": {
+      "default_icon": "16.png", 
+      "default_popup": "src/index.html"
+  }
+}
